@@ -50,8 +50,6 @@ html,body{
     border-color: #999;
 }
 .intro{
-    overflow: auto;
-    zoom: 1;
     border: 1px solid;
     border-color: #999;
     padding:20px;
