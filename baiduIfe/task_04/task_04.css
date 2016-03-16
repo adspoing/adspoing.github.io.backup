@@ -1,0 +1,31 @@
+.container{
+    width:400px;
+    height:200px;
+    background: #ccc;
+    left: 50%;
+    top: 50%;
+    margin-left: -200px;
+    margin-top: -100px;
+    position:absolute;
+}
+
+#top_left{
+    height:50px;
+    width:50px;
+    background: #fc0;
+    -webkit-border-radius:0 0 50px 0;
+    -moz-border-radius:0 0 50px 0;
+    border-radius:0 0 50px 0;
+    position:absolute;
+}
+#bottom_right{
+    height:50px;
+    width:50px;
+    background: #fc0;
+    -webkit-border-radius:  50px 0 0 0px;
+    -moz-border-radius:  50px 0 0 0px;
+    border-radius: 50px 0 0 0px;
+    position:absolute;
+    right:0;
+    bottom:0;
+}
