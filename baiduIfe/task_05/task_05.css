@@ -1,0 +1,39 @@
+* {
+    margin:0;
+    padding:0;
+}
+body{
+    position: relative;
+    width: 100%;
+    background-color: #CCCCCC;
+    font-family: sans-serif;
+}
+header{
+    height:100%;
+    background-color:#333333;
+    margin:0;
+    width:100%;
+    float:left;
+    position: relative;
+    height: 60px;
+    min-width: 600px;
+}
+a:link{ color:#fff;}
+a:hover{ color:#ccc;}
+a:active{color:#fff;}
+a:active{color:#ccc;}
+
+.title img{
+    position: absolute;
+}
+nav{
+    position: absolute;
+    right:0;
+    float:left;
+    top:20px;
+}
+nav ul li{
+    float: left;
+    margin: 0 15px;
+    list-style-type: disc;
+}
