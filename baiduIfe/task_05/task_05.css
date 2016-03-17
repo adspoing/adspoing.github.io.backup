@@ -45,6 +45,8 @@ nav ul li{
     padding: 20px;
     float:left;
     width: 100%;
+    box-shadow: 2px 2px 0 0 #8f8f8f;
+    border: 1px solid #8f8f8f;;
 }
 .wrapper .content ul li{
     list-style-type:none;
@@ -110,7 +112,8 @@ nav ul li{
     right:0;
     width: 360px;
     padding: 20px 20px;
-    box-shadow: 2px 2px 0 0 #333;
+    border: 1px solid #8f8f8f;;
+    box-shadow: 2px 2px 0 0 #8f8f8f;
 }
 .aside h2{
     border-left: 3px solid #ccc;
