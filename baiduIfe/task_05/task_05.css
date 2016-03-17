@@ -9,19 +9,16 @@ body{
     font-family: sans-serif;
 }
 header{
-    height:100%;
     background-color:#333333;
     margin:0;
     width:100%;
-    float:left;
-    position: relative;
     height: 60px;
     min-width: 600px;
 }
-a:link{ color:#fff;}
-a:hover{ color:#ccc;}
-a:active{color:#fff;}
-a:active{color:#ccc;}
+header a:link{ color:#fff;}
+header a:hover{ color:#ccc;}
+header a:active{color:#ccc;}
+header a:visited{color:#fff;}
 
 .title img{
     position: absolute;
@@ -36,4 +33,128 @@ nav ul li{
     float: left;
     margin: 0 15px;
     list-style-type: disc;
+}
+.wrapper{
+    position: relative;
+    padding: 20px;
+    margin:0px 460px 0px 0px;
+}
+.wrapper .content{
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    float:left;
+    width: 100%;
+}
+.wrapper .content ul li{
+    list-style-type:none;
+}
+.wrapper .content h2{
+    margin-top: 20px;
+}
+.wrapper .content h3
+{
+    margin-top: 20px;
+    color:#ccc;
+}
+.wrapper .content .post
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #ccc;
+    font-size: 0.8em;
+}
+.content .image img
+{
+    height: 80px;
+}
+
+.content .image dd{
+    width: 100px;
+    float:left;
+    border: 1px solid #ccc;
+    margin: 20px;
+}
+.content .image .dl{
+    clear:both;
+}
+
+.content ol
+{
+    margin-left: 30px;
+}
+.content table{
+    border-collapse: collapse;
+    border:1px solid #ccc;
+    width: 100%;
+}
+.content table thead{
+    background-color: #333;
+    color:#fff;
+}
+.content table tfoot{
+    background-color: #ccc;
+    color:#333;
+}
+.content img
+{
+    width: 100%;
+    max-width: 300px;
+}
+.aside{
+    margin-top: 20px;
+    margin-right:20px;
+    background-color: #fff;
+    position: absolute;
+    top:60px;
+    right:0;
+    width: 360px;
+    padding: 20px 20px;
+    box-shadow: 2px 2px 0 0 #333;
+}
+.aside h2{
+    border-left: 3px solid #ccc;
+    margin-top:20px;
+    padding:10px 8px;
+    font-size: 1.2em;
+    margin-bottom: 20px;;
+}
+.form-group{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.form-group span{
+    width:120px;
+    text-align: right;
+    float: left;
+    margin-right: 20px;;
+}
+.form-tips{
+    margin-bottom: 20px;
+}
+.form-tips p{
+    position: relative;
+    left:140px;
+    color: #CCCCCC;
+}
+
+.form-group #submit{
+    border-radius: 6px;
+    width: 100%;
+    background: #3355dd;
+    height: 40px;
+    text-align: center;
+    color: #fff;
+    font-size: 1em;
+}
+.clearfix
+{
+    clear:both;height:0;overflow:hidden;
+}
+footer{
+    text-align: center;
+    height:60px;
+    background-color: #333;
+    color:#fff;
+    line-height: 50px;
 }
