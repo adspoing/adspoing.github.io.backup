@@ -354,7 +354,7 @@ body
     height: 160px;
     background-color: #d55d5c;
     color: #fff;
-    bottom: -164px;
+    bottom: -445px;
 }
 
 .wrapper .bottomEnd .red .zero {
@@ -397,7 +397,7 @@ body
     position: absolute;
     width: 180px;
     left: 760px;
-    bottom: -120px;
+    bottom: -405px;
     font-family: Simhei;
     font-size: 14px;
 }
@@ -430,7 +430,7 @@ body
 {
     position: absolute;
     width: 892px;
-    bottom: -260px;
+    bottom: -580px;
     border-top: 1px solid #938e8c;
 }
 .footer p
