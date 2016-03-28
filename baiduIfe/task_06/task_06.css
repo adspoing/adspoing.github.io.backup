@@ -10,6 +10,7 @@ body
     width: 980px;
     background-color: #fff;
     height: 1386px;
+    margin:0 auto;
 }
 .wrapper{
     margin: auto;
@@ -349,12 +350,13 @@ body
     border-right: 4px solid transparent;
 }
 .wrapper .bottomEnd .red {
-    position: absolute;
+    position: relative;
     width: 260px;
     height: 160px;
     background-color: #d55d5c;
     color: #fff;
-    bottom: -445px;
+    bottom:-15px;
+
 }
 
 .wrapper .bottomEnd .red .zero {
@@ -394,12 +396,12 @@ body
 
 
 .wrapper .bottomEnd .quote{
-    position: absolute;
+    position: relative;
     width: 180px;
-    left: 760px;
-    bottom: -405px;
     font-family: Simhei;
     font-size: 14px;
+    left:270px;
+    top:-100px;
 }
 
 .wrapper .bottomEnd .quote .leftqut{
@@ -428,14 +430,16 @@ body
 }
 .footer
 {
-    position: absolute;
+    position: relative;
+    top:1280px;
     width: 892px;
-    bottom: -580px;
     border-top: 1px solid #938e8c;
 }
 .footer p
 {
-    float: right;
+    position: absolute;
+    top:0;
+    right:0;
     font-family: Simhei;
     font-size: 12px;
     color: #d45d5c;
