@@ -1,0 +1,17 @@
+.pannel{
+    border:2px solid #000000;
+    float:right;
+}
+
+#canvas {
+    float:left;
+    background-color:#000000;
+    border:3px #418c59 solid;
+
+}
+
+.terminal
+{
+    float:left;
+
+}
