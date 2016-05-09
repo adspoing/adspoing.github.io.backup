@@ -1,0 +1,48 @@
+.arrow.asc {
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-bottom: 4px solid #000;
+}
+
+.arrow.dsc {
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 4px solid #000;
+}
+.arrow {
+    display: inline-block;
+    vertical-align: middle;
+    width: 0;
+    height: 0;
+    margin-left: 5px;
+}
+
+body {
+    font-family: Helvetica Neue, Arial, sans-serif;
+    font-size: 14px;
+    color: #444;
+}
+
+table {
+    border: 2px solid #1e90ff;
+    border-radius: 3px;
+    background-color: #fff;
+}
+th {
+    background-color: #1e90ff;
+    color: rgba(255,255,255,0.66);
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -user-select: none;
+}
+
+td {
+    background-color: #f9f9f9;
+}
+
+th, td {
+    min-width: 60px;
+    padding: 10px 20px;
+}
+
